@@ -19,7 +19,7 @@
                     function openWizard() {
                         window.jotformFormPicker.openWizard(function(formID){
                             if (formID !== undefined && formID.length > 0 && formID !== "Please enter your form id") {
-                                ed.execCommand('mceInsertContent', false, '[jotform id="'+formID+'"]');
+                                tinyMCE.activeEditor.execCommand('mceInsertContent', 0, '[jotform id="' + formID + '"]');
                             }
                         });
                     }
