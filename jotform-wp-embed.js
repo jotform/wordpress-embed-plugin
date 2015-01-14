@@ -27,7 +27,7 @@
                         openWizard();
                     }
                     else {
-                        jQuery.getScript("http://js.jotform.com/JotFormFormPicker.js", function(data, textStatus, jqxhr) {
+                        jQuery.getScript("//js.jotform.com/JotFormFormPicker.js", function(data, textStatus, jqxhr) {
                             event.preventDefault();
                             window.jotformFormPicker = new JotFormFormPicker();
                             openWizard();

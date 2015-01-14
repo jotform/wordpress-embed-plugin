@@ -57,9 +57,9 @@ class JotFormWPEmbed {
         return $content;
     }
 
-    public function replaceTags($matches) {
-        $htmlVersion = '<script type="text/javascript" src="http://www.jotform.com/jsform/'.$matches["formID"].'?redirect=1"></script>';
-        return $htmlVersion;
+    public function replaceTags($matches)
+    {
+        return '<script type="text/javascript" src="//www.jotform.com/jsform/'.$matches["formID"].'?redirect=1"></script>';
     }
     
     /*
@@ -73,5 +73,3 @@ class JotFormWPEmbed {
 }
 
 $jotformwp = new JotFormWPEmbed();
-
-?>
