@@ -3,9 +3,9 @@
     Plugin Name: JotForm Embed Forms
     Plugin URI: http://www.jotform.com/labs/wordpress
     Description:
-    Version: 1.2
-    Author: Ertugrul Emre Ertekin
-    Author URI: http://ee.ertek.in
+    Version: 1.2.1
+    Author: JotForm.com
+    Author URI: http://www.jotform.com
     License: GNU General Public License v3
 */
 
@@ -14,7 +14,7 @@ class JotFormWPEmbed {
     public function __construct() {
         /* Hook action to init */
         add_action('init', array($this ,'addTinyMCEButton') );
-        
+
         /* Use shortcode api if available */
         if($this->isLegacy()) {
         	add_filter('the_content', array($this, 'handleContentTags'));
@@ -22,7 +22,7 @@ class JotFormWPEmbed {
         	add_shortcode('jotform', array($this, 'apiEmbedHandler'));
         }
     }
-    
+
     /*
      * Checks if WP version is less than 2.5 (When shortcode Api was introduced)
      * @return bool
@@ -61,7 +61,7 @@ class JotFormWPEmbed {
     {
         return '<script type="text/javascript" src="//www.jotform.com/jsform/'.$matches["formID"].'?redirect=1"></script>';
     }
-    
+
     /*
      * Reads form id returned from shortcode api and inserts form
      */

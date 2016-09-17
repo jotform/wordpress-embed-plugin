@@ -2,9 +2,9 @@
     Plugin Name: JotForm Embed Forms
     Plugin URI: http://www.jotform.com/labs/wordpress
     Description:
-    Version: 1.2
-    Author: Ertugrul Emre Ertekin
-    Author URI: http://ee.ertek.in
+    Version: 1.2.1
+    Author: JotForm.com
+    Author URI: http://www.jotform.com
     License: GNU General Public License v3
 */
 
@@ -42,8 +42,8 @@
         getInfo : function() {
             return {
                 longname : "JotForm Embed Forms",
-                author : 'Ertugrul Emre Ertekin',
-                authorurl : 'http://ee.ertek.in',
+                author : 'JotForm.com',
+                authorurl : 'http://www.jotform.com',
                 infourl : 'http://www.jotform.com/labs/wordpress',
                 version : "1.0"
             };
