@@ -11,7 +11,6 @@
 (function() {
     tinymce.create('tinymce.plugins.JotFormWPEmbed', {
         init : function(ed, url) {
-            console.log(url);
             ed.addButton('JotFormWPEmbed', {
                 title : 'JotForm',
                 image : url+'/images/jotform.png',
