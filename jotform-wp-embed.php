@@ -17,9 +17,9 @@ class JotFormWPEmbed {
 
         /* Use shortcode api if available */
         if($this->isLegacy()) {
-        	add_filter('the_content', array($this, 'handleContentTags'));
+            add_filter('the_content', array($this, 'handleContentTags'));
         } else {
-        	add_shortcode('jotform', array($this, 'apiEmbedHandler'));
+            add_shortcode('jotform', array($this, 'apiEmbedHandler'));
         }
     }
 
@@ -35,12 +35,12 @@ class JotFormWPEmbed {
         if ( ( current_user_can('edit_posts') || current_user_can('edit_pages') ) && get_user_option('rich_editing') ) {
             add_filter("mce_external_plugins", array($this ,'addTinyMCEPlugin'));
             add_filter('mce_buttons', array($this ,'registerFormPicker'));
-       }
+        }
     }
 
     public function registerFormPicker($buttons) {
-       array_push($buttons, "|", "JotFormWPEmbed");
-       return $buttons;
+        array_push($buttons, "|", "JotFormWPEmbed");
+        return $buttons;
     }
 
     /* Load the TinyMCE plugin */
@@ -52,7 +52,7 @@ class JotFormWPEmbed {
     public function handleContentTags($content) {
         $pattern = '/\[jotform id=\"(?<formID>.*)\"\]/';
         if (preg_match($pattern, $content)) {
-           $content = preg_replace_callback($pattern, array($this, "replaceTags"), $content);
+            $content = preg_replace_callback($pattern, array($this, "replaceTags"), $content);
         }
         return $content;
     }
