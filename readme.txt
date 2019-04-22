@@ -3,7 +3,7 @@ Contributors: jotform
 Donate link: N/A
 Tags: jotform, form, embed, contact form, survey form, online form, web form, online forms, web forms
 Requires at least: 3.3
-Tested up to: 4.6.1
+Tested up to: 5.1.1
 Stable tag: 1.2.2
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -27,16 +27,17 @@ JotForm is easy to use drag and drop form builder trusted by over 1 million user
 2. Enter your Wordpress Administrator panel (http://my-wordpress.url/wp-admin)
 3. Activate plugin under Plugins section
 4. Go to post/page you want to embed your form
-5. Click to JotForm's Form Picker (Small orange JotForm pencil icon)
-6. Select your form from your JotForm account
-7. Save/Preview it
-8. Hola, your form is embedded to your post/page :)
+5. If you are using Gutenberg editor, add a Classic block to your post/page
+6. Click on JotForm's Form Picker tool (pencil icon)
+7. Select your form from your JotForm account
+8. Save/Preview it
+9. Voila! Your form is embedded to your post/page :)
 
 == Frequently asked questions ==
 
 = How to add a form? =
 
-Adding a form to your blog post is very easy. Simply click on the JotForm icon on your post editor. It is the small pencil icon. See the screenshots to see what it looks like.
+Adding a form to your blog post is very easy. Simply click the JotForm pencil icon on the classic editor. If you are using Gutenberg editor, you must add a Classic block first.
 
 = What kinds of forms can I create? =
 
@@ -48,7 +49,7 @@ Using JotForm you can create [contact forms](http://www.jotform.com/form-templat
 
 = Is it Free? =
 
-JotForm is free upto 100 form submissions per month. If you go over that limit you will need to upgrade to a Premium plan at $9.95/month.
+JotForm is free up to 100 form submissions per month. If you go over that limit you will need to upgrade to a Bronze plan at $19/month.
 
 
 
@@ -62,6 +63,10 @@ JotForm is free upto 100 form submissions per month. If you go over that limit y
 3. JotForm code on your post/page
 
 4. Your Form in Action
+
+5. Classic block on Gutenberg editor
+
+6. JotForm - Form Picker icon on Gutenberg editor
 
 == Changelog ==
 
