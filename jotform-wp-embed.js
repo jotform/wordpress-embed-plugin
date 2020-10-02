@@ -2,7 +2,7 @@
     Plugin Name: JotForm Embed Forms
     Plugin URI: http://www.jotform.com/labs/wordpress
     Description:
-    Version: 1.2.2
+    Version: 1.2.3
     Author: JotForm.com
     Author URI: http://www.jotform.com
     License: GNU General Public License v3
@@ -16,9 +16,18 @@
                 image : url+'/images/jotform.png',
                 onclick : function(event) {
                     function openWizard() {
-                        window.jotformFormPicker.openWizard(function(formID){
-                            if (formID !== undefined && formID.length > 0 && formID !== "Please enter your form id") {
-                                tinyMCE.activeEditor.execCommand('mceInsertContent', 0, '[jotform id="' + formID + '"]');
+                        window.jotformFormPicker.openWizard(function(data){
+                            var value;
+                            var isValid;
+                            if(typeof data !== 'string'){
+                                isValid = data && data.title && data.id && data.id !== "Please enter your form id";
+                                value = '[jotform id="' + data.id + '" title="'+data.title+'"]';
+                            } else{
+                                isValid = data.length > 0 && data !== "Please enter your form id";
+                                value = '[jotform id="' + data + '"]';
+                            }
+                            if (isValid) {
+                                tinyMCE.activeEditor.execCommand('mceInsertContent', 0, value);
                             }
                         });
                     }
@@ -45,7 +54,7 @@
                 author : 'JotForm.com',
                 authorurl : 'http://www.jotform.com',
                 infourl : 'http://www.jotform.com/labs/wordpress',
-                version : "1.0"
+                version : "1.2.3"
             };
         }
     });

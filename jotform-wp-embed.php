@@ -3,7 +3,7 @@
     Plugin Name: JotForm Embed Forms
     Plugin URI: http://www.jotform.com/labs/wordpress
     Description:
-    Version: 1.2.2
+    Version: 1.2.3
     Author: JotForm.com
     Author URI: http://www.jotform.com
     License: GNU General Public License v3
@@ -50,9 +50,10 @@ class JotFormWPEmbed {
     }
 
     public function handleContentTags($content) {
-        $pattern = '/\[jotform id=\"(?<formID>.*)\"\]/';
+        // this will also support the older version of plugin.
+        $pattern = '/\[jotform id=\"(?<formID>.*)\"( title=\"(?<formTitle>.*)?\")?\]/';
         if (preg_match($pattern, $content)) {
-            $content = preg_replace_callback($pattern, array($this, "replaceTags"), $content);
+            $content = preg_replace_callback($pattern, "replaceTags", $content);
         }
         return $content;
     }
