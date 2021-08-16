@@ -1,10 +1,10 @@
 === JotForm Online Forms - Drag & Drop Form Builder, Securely Embed Contact Forms ===
 Contributors: jotform
 Donate link: N/A
-Tags: form builder, survey, order form, contact form, embed form
+Tags: jotform, survey, order form, contact form, embed form
 Requires at least: 3.3
-Tested up to: 5.5.1
-Stable tag: 1.2.3
+Tested up to: 5.7
+Stable tag: 1.2.5
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl.html
 Requires PHP: 5.6
@@ -16,26 +16,26 @@ Embed signup, booking, email, registration, lead gen, signature, & consent forms
 This plugin lets you securely embed online forms in your WordPress website.
 
 **Secure, Easy-to-Use Online Form Builder for WordPress**
- 
+
 JotForm is an easy-to-use Form Builder trusted by over 8 million users. With JotForm’s drag-and-drop interface, you can create custom forms for your website or blog using advanced customization tools and CSS injection. Embed your secure online forms into Wordpress posts and pages at the click of a button, and set up inbox and email notifications to get notified and check your form responses on any device. And with the free JotForm Mobile Forms app, you can even receive instant push notifications for every submission.
  
-With [10,000+ free form templates](https://www.jotform.com/form-templates/) to get you started, you can quickly create custom online contact forms, event registration forms, application forms, request forms, surveys, and more, and embed them in your website in just a few clicks. JotForm offers [300+ widgets](https://www.jotform.com/widgets/), including E-Signature, Appointment Slots, Take Photo, Terms & Conditions, and Image Slider, and [100+ integrations](https://www.jotform.com/apps/) to sync form submissions and file uploads to platforms like Google Sheets, Google Calendar, Slack, Zoom, HubSpot, Salesforce, Airtable, Trello, Google Drive, Dropbox, and more — you can even build your own email list and create a customer database in Mailchimp!
- 
-You can create a secure payment form to sell your products, collect donations, and set up recurring subscriptions via [30+ trusted payment gateway integrations](https://www.jotform.com/apps/category/payment-processing/), including Square, PayPal, Stripe, and Authorize.Net, with no additional transaction fees.
- 
+With [10,000+ free form templates](https://www.jotform.com/form-templates/) to get you started, you can quickly create custom online contact forms, event registration forms, application forms, request forms, surveys, and more, and embed them in your website in just a few clicks. JotForm offers [300+ widgets](https://www.jotform.com/widgets/), including E-Signature, Appointment Slots, Take Photo, Terms & Conditions, and Image Slider, and [100+ integrations](https://www.jotform.com/integrations/) to sync form submissions and file uploads to platforms like Google Sheets, Google Calendar, Slack, Zoom, HubSpot, Salesforce, Airtable, Trello, Google Drive, Dropbox, and more — you can even build your own email list and create a customer database in Mailchimp!
+
+You can create a secure payment form to sell your products, collect donations, and set up recurring subscriptions via [30+ trusted payment gateway integrations](https://www.jotform.com/integrations/category/payment-processing), including Square, PayPal, Stripe, and Authorize.Net, with no additional transaction fees.
+
 And if you’re concerned about data security, JotForm keeps your form data safe with advanced features like PCI compliance, [GDPR compliance](https://www.jotform.com/gdpr-compliance/), a 256-bit SSL connection, and optional [HIPAA compliance for healthcare professionals](https://www.jotform.com/hipaa/).
- 
+
 If you have any questions or concerns regarding your online forms or our Form Builder, feel free to contact our friendly 24-7 [support team](https://www.jotform.com/contact/) at any time. 
 
 **Drag-and-Drop Form Builder — No coding skills required!**
 
-* Build any form in seconds: Create an online form from scratch or customize a template without doing any coding. Simply drag and drop elements to make your form look and work exactly how you want. 
+* **Build any form in seconds:** Create an online form from scratch or customize a template without doing any coding. Simply drag and drop elements to make your form look and work exactly how you want. 
 
 * **Customize for your brand:** Represent your business by adding your company branding, such as logos, fonts, and color palettes, to your forms. 
-10,000+ free form templates: Build custom [registration forms](https://www.jotform.com/form-templates/category/registration), [feedback forms](https://www.jotform.com/form-templates/category/feedback), [application forms](https://www.jotform.com/form-templates/category/application-form), [order forms](https://www.jotform.com/form-templates/category/order-form), [contact forms](https://www.jotform.com/form-templates/category/contact-form), [report forms](https://www.jotform.com/form-templates/category/report), [signup forms](https://www.jotform.com/form-templates/category/signup-form), [donation forms](https://www.jotform.com/form-templates/category/donation), [surveys](https://www.jotform.com/form-templates/category/survey), [services forms](https://www.jotform.com/form-templates/category/services), [resume (CV) job application forms](https://www.jotform.com/form-templates/cv-submission-form), [booking forms](https://www.jotform.com/form-templates/category/booking), [petition forms](https://www.jotform.com/form-templates/category/petition), [and more](https://www.jotform.com/form-templates/); plus, collect responses online.
-300+ widgets: Choose from [hundreds of online form widgets](https://www.jotform.com/widgets/) to add powerful features like video players, social media icons, geolocation maps, and more to your forms.
+* **10,000+ free form templates:** Build custom [registration forms](https://www.jotform.com/form-templates/category/registration), [feedback forms](https://www.jotform.com/form-templates/category/feedback), [application forms](https://www.jotform.com/form-templates/category/application-form), [order forms](https://www.jotform.com/form-templates/category/order-form), [contact forms](https://www.jotform.com/form-templates/category/contact-form), [report forms](https://www.jotform.com/form-templates/category/report), [signup forms](https://www.jotform.com/form-templates/category/signup-form), [donation forms](https://www.jotform.com/form-templates/category/donation), [surveys](https://www.jotform.com/form-templates/category/survey), [services forms](https://www.jotform.com/form-templates/category/services), [resume (CV) job application forms](https://www.jotform.com/form-templates/cv-submission-form), [booking forms](https://www.jotform.com/form-templates/category/booking), [petition forms](https://www.jotform.com/form-templates/category/petition), [and more](https://www.jotform.com/form-templates/); plus, collect responses online.
+* **300+ widgets:** Choose from [hundreds of online form widgets](https://www.jotform.com/widgets/) to add powerful features like video players, social media icons, geolocation maps, and more to your forms.
 
-* **100+ integrations:** Connect with popular apps like [PayPal](https://www.jotform.com/paypal/), Square, [Google Calendar](https://www.jotform.com/apps/google-calendar), [Google Sheets](https://www.jotform.com/apps/google-sheets), [Zoom](https://www.jotform.com/apps/zoom), [Airtable](https://www.jotform.com/apps/airtable), [Slack](https://www.jotform.com/apps/slack), [Zoho](https://www.jotform.com/apps/zoho-crm), [Asana](https://www.jotform.com/apps/asana), [Trello](https://www.jotform.com/apps/trello), [Monday.com](https://www.jotform.com/apps/monday-com) [and more](https://www.jotform.com/apps/).
+* **100+ integrations:** Connect with popular apps like [PayPal](https://www.jotform.com/paypal/), [Square](https://www.jotform.com/square/), [Google Calendar](https://www.jotform.com/integrations/google-calendar), [Google Sheets](https://www.jotform.com/integrations/google-sheets), [Zoom](https://www.jotform.com/integrations/zoom), [Airtable](https://www.jotform.com/integrations/airtable), [Slack](https://www.jotform.com/integrations/slack), [Zoho](https://www.jotform.com/integrations/zoho-crm), [Asana](https://www.jotform.com/integrations/asana), [Trello](https://www.jotform.com/integrations/trello), [Monday.com](https://www.jotform.com/integrations/monday-com) [and more](https://www.jotform.com/integrations/).
 * **Built-in collaboration tools:** Assign forms to teammates or share them with a link to collect and manage form submissions collaboratively.
 
 * **Social login:** Sign up or log in using your **Google** or **Facebook** account.
@@ -53,15 +53,16 @@ If you have any questions or concerns regarding your online forms or our Form Bu
 * **HIPAA compliance:** Safely collect sensitive patient health information using JotForm’s HIPAA-compliant forms. A Business Associate Agreement (BAA) is available upon request.
  
 View the full list of JotForm’s security features [here](https://www.jotform.com/security/).
+
 **Automate Your Workflow with 100+ Integrations**
 
-* **Popular apps:** [PayPal](https://www.jotform.com/paypal/), [Square](https://www.jotform.com/square/), [Google Calendar](https://www.jotform.com/apps/google-calendar), [Google Sheets](https://www.jotform.com/apps/google-sheets), [Zoom](https://www.jotform.com/apps/zoom), [Airtable](https://www.jotform.com/apps/airtable), [Slack](https://www.jotform.com/apps/slack), [Zoho](https://www.jotform.com/apps/zoho-crm), [Asana](https://www.jotform.com/apps/asana), [Trello](https://www.jotform.com/apps/trello), [and more](https://www.jotform.com/apps/)
-* **CRM software:** [HubSpot](https://www.jotform.com/apps/hubspot), [ActiveCampaign](https://www.jotform.com/apps/activecampaign), [Salesforce](https://www.jotform.com/apps/salesforce), [Keap (formerly InfusionSoft)](https://www.jotform.com/apps/keap), [Pipedrive](https://www.jotform.com/apps/pipedrive), [and more](https://www.jotform.com/apps/category/crm)
-* **Cloud storage:** [Dropbox](https://www.jotform.com/apps/dropbox), [Google Drive](https://www.jotform.com/apps/google-drive), [Box](https://www.jotform.com/apps/box), [and more](https://www.jotform.com/apps/category/file-sharing-and-storage)
-* **Email marketing services:** [Mailchimp](https://www.jotform.com/apps/mailchimp), [Constant Contact](https://www.jotform.com/apps/constant-contact), [AWeber](https://www.jotform.com/apps/aweber), [and more](https://www.jotform.com/apps/category/emailing)
+* **Popular apps:** [PayPal](https://www.jotform.com/paypal/), [Square](https://www.jotform.com/square/), [Google Calendar](https://www.jotform.com/integrations/google-calendar), [Google Sheets](https://www.jotform.com/integrations/google-sheets), [Zoom](https://www.jotform.com/integrations/zoom), [Airtable](https://www.jotform.com/integrations/airtable), [Slack](https://www.jotform.com/integrations/slack), [Zoho](https://www.jotform.com/integrations/zoho-crm), [Asana](https://www.jotform.com/integrations/asana), [Trello](https://www.jotform.com/integrations/trello), [and more](https://www.jotform.com/integrations/)
+* **CRM software:** [HubSpot](https://www.jotform.com/integrations/hubspot), [ActiveCampaign](https://www.jotform.com/integrations/activecampaign), [Salesforce](https://www.jotform.com/integrations/salesforce), [Keap (formerly InfusionSoft)](https://www.jotform.com/integrations/keap), [Pipedrive](https://www.jotform.com/integrations/pipedrive), [and more](https://www.jotform.com/integrations/category/crm)
+* **Cloud storage:** [Dropbox](https://www.jotform.com/integrations/dropbox), [Google Drive](https://www.jotform.com/integrations/google-drive), [Box](https://www.jotform.com/integrations/box), [and more](https://www.jotform.com/integrations/category/file-sharing-and-storage)
+* **Email marketing services:** [Mailchimp](https://www.jotform.com/integrations/mailchimp), [Constant Contact](https://www.jotform.com/integrations/constant-contact), [AWeber](https://www.jotform.com/integrations/aweber), [and more](https://www.jotform.com/integrations/category/emailing)
 Connect with even more apps using [JotForm’s Zapier integration!](https://zapier.com/apps/jotform/integrations)
 
-View all of JotForm’s integrations [here](https://www.jotform.com/apps/).
+View all of JotForm’s integrations [here](https://www.jotform.com/integrations/).
 
 **Collect Payments with No Additional Transaction Fees**
 
@@ -72,7 +73,7 @@ View all of JotForm’s integrations [here](https://www.jotform.com/apps/).
 * **Charge customers later:** Use JotForm’s payment authorization feature to collect payment information now and charge your customers later.
 * **E-check and ACH payments:** Process online check payments via [eCheck.Net](https://www.jotform.com/authorize-net/echeck/) or collect direct bank transfers via [Stripe ACH](https://www.jotform.com/stripe/ach/).
 * **Discounts and coupons:** Set up your payment form to accept coupons and discount codes provided by customers.
-* **30+ payment gateways:** [PayPal](https://www.jotform.com/apps/paypal-business), [Square](https://www.jotform.com/apps/square), [Stripe](https://www.jotform.com/apps/stripe), [Authorize.Net](https://www.jotform.com/apps/authorize-net), [BlueSnap](https://www.jotform.com/apps/bluesnap), [and more](https://www.jotform.com/apps/category/payment-processing)!
+* **30+ payment gateways:** [PayPal](https://www.jotform.com/integrations/paypal-business), [Square](https://www.jotform.com/integrations/square), [Stripe](https://www.jotform.com/integrations/stripe), [Authorize.Net](https://www.jotform.com/integrations/authorize-net), [BlueSnap](https://www.jotform.com/integrations/bluesnap), [and more](https://www.jotform.com/integrations/category/payment-processing)!
 
 View the full list of JotForm’s online payment features [here](https://www.jotform.com/online-payments/features/).
 
@@ -88,7 +89,7 @@ View the full list of JotForm’s online payment features [here](https://www.jot
 * **Card forms:** Make your forms more conversational and boost conversion rates with [JotForm Cards](https://www.jotform.com/cards/), which asks one question per page.
 * **CAPTCHA:** Protect your forms against spam and unwanted submissions.
 * **Appointment scheduling:** Let users book appointments or meetings by selecting available dates and times from a calendar. 
-* **Webhooks:** Send form submission notifications to a URL through [Webhooks](https://www.jotform.com/apps/webhooks).
+* **Webhooks:** Send form submission notifications to a URL through [Webhooks](https://www.jotform.com/integrations/webhooks).
 * **Autoresponder emails:** Send autoresponder emails and receive instant notifications as soon as someone completes your form.
 * **Report Builder:** [Convert form responses into beautiful reports](https://www.jotform.com/products/report-builder/) to uncover new business insights and make smarter decisions.
 * **Export data as Excel, CSV, or PDF:** Download your form’s submission data in Excel, CSV, or PDF file formats.
@@ -141,7 +142,7 @@ On our Starter plan, you’ll be able to access all JotForm features for free. H
 
 = What is JotForm? =
 
-[JotForm](http://www.jotform.com) is a free form builder. It is trusted by over 1 millions users. Two things make JotForm great: Easy to use form builder and large number of ready-to-use form templates. You can choose from over 2500 form templates and quickly create your forms.
+[JotForm](https://www.jotform.com) is a free form builder. It is trusted by over 1 millions users. Two things make JotForm great: Easy to use form builder and large number of ready-to-use form templates. You can choose from over 2500 form templates and quickly create your forms.
 
 = What kind of forms can I create with JotForm? =
 
@@ -149,7 +150,7 @@ You can create any form you need with JotForm — [order forms](https://www.jotf
 
 = Can I collect payments with JotForm? =
 
-Yes! JotForm makes it easy to sell products, collect donations, and set up recurring payments directly through your online forms with [30+ trusted payment processing integrations](https://www.jotform.com/apps/category/payment-processing) — including [Square](https://www.jotform.com/square/), [PayPal](https://www.jotform.com/paypal/), [Stripe](https://www.jotform.com/stripe/), [Authorize.Net](https://www.jotform.com/authorize-net/), and more.
+Yes! JotForm makes it easy to sell products, collect donations, and set up recurring payments directly through your online forms with [30+ trusted payment processing integrations](https://www.jotform.com/integrations/category/payment-processing) — including [Square](https://www.jotform.com/square/), [PayPal](https://www.jotform.com/paypal/), [Stripe](https://www.jotform.com/stripe/), [Authorize.Net](https://www.jotform.com/authorize-net/), and more.
 
 = How secure is JotForm? =
 
@@ -157,11 +158,11 @@ Ensuring the privacy and security of your data is a top priority. With advanced 
 
 = Will I be notified when someone fills out my form? =
 
-You can easily set up [notification emails](https://www.jotform.com/help/25-Setting-up-Email-Notifications) in your form’s settings. Simply enter your email address into the recipients list, and you’ll instantly receive emails as soon as someone fills out your form! And with our [JotForm Mobile Forms](https://www.jotform.com/products/mobile-forms/) app, you’ll even receive push notifications for each submission. 
+You can easily set up [notification emails](https://www.jotform.com/help/25-setting-up-email-notifications) in your form’s settings. Simply enter your email address into the recipients list, and you’ll instantly receive emails as soon as someone fills out your form! And with our [JotForm Mobile Forms](https://www.jotform.com/products/mobile-forms/) app, you’ll even receive push notifications for each submission. 
 
 = How do I find my JotForm form ID? =
 
-Your form ID is the string of digits at the end of your [form’s URL](https://www.jotform.com/help/401-Where-to-Find-My-Form-URL). If you like, you can [create a custom form URL](https://www.jotform.com/help/261-How-to-Create-a-Custom-URL-of-a-Form) that replaces these numbers.
+Your form ID is the string of digits at the end of your [form’s URL](https://www.jotform.com/help/401-where-to-find-my-form-url). If you like, you can [create a custom form URL](https://www.jotform.com/help/261-how-to-create-a-custom-url-of-a-form) that replaces these numbers.
 
 = Where can I ask further questions about JotForm? =
 
