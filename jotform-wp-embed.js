@@ -1,10 +1,10 @@
 /*
     Plugin Name: JotForm Embed Forms
-    Plugin URI: http://www.jotform.com/labs/wordpress
+    Plugin URI: https://www.jotform.com/labs/
     Description:
-    Version: 1.2.3
+    Version: 1.2.5
     Author: JotForm.com
-    Author URI: http://www.jotform.com
+    Author URI: https://www.jotform.com
     License: GNU General Public License v3
 */
 
@@ -52,9 +52,9 @@
             return {
                 longname : "JotForm Embed Forms",
                 author : 'JotForm.com',
-                authorurl : 'http://www.jotform.com',
-                infourl : 'http://www.jotform.com/labs/wordpress',
-                version : "1.2.3"
+                authorurl : 'https://www.jotform.com',
+                infourl : 'https://www.jotform.com/labs/',
+                version : "1.2.5"
             };
         }
     });
