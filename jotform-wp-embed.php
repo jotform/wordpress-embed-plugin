@@ -3,7 +3,7 @@
     Plugin Name: JotForm Embed Forms
     Plugin URI: http://www.jotform.com/labs/wordpress
     Description:
-    Version: 1.2.3
+    Version: 1.2.6
     Author: JotForm.com
     Author URI: http://www.jotform.com
     License: GNU General Public License v3
