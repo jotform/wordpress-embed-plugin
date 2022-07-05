@@ -1,13 +1,13 @@
-=== Jotform Online Forms - Drag & Drop Form Builder, Securely Embed Contact Forms ===
-Contributors: jotform
-Donate link: N/A
-Tags: jotform, survey, order form, contact form, embed form
-Requires at least: 3.3
-Tested up to: 6.0
-Stable tag: 1.2.6
-License: GNU General Public License v3
-License URI: http://www.gnu.org/licenses/gpl.html
-Requires PHP: 5.6
+=== JotForm Online Forms - Drag & Drop Form Builder, Securely Embed Contact Forms ===
+Contributors:       Jotform
+Donate link:        N/A
+Tags:               jotform, survey, order form, contact form, embed form
+Requires at least:  3.3
+Requires PHP:       5.6
+Tested up to:       6.0
+Stable tag:         1.2.5
+License:            GNU General Public License v3
+License URI:        http://www.gnu.org/licenses/gpl.html
 
 Embed signup, booking, email, registration, lead gen, signature, & consent forms. Protect and encrypt data. PCI & HIPAA compliance. 100+ integrations.
 
@@ -119,7 +119,7 @@ View the entire list of Jotform’s form widgets [here](https://www.jotform.com/
 
 No matter what type of website you’re building, Jotform makes it easier than ever to create online WordPress forms that meet your exact needs. With thousands of customizable templates and advanced form features you won’t find anywhere else, Jotform is the best WordPress form builder on the market!
 
-== Installation Instructions ==
+== Installation ==
 1. Download repo's tarball/zip and extract it to your Wordpress's Plugins folder ({wordpress-folder}/wp-content/plugins)
 2. Enter your Wordpress Administrator panel (http://my-wordpress.url/wp-admin)
 3. Activate plugin under Plugins section
@@ -181,8 +181,6 @@ If you have any additional questions or concerns regarding Jotform, please refer
 8. Use Jotform Inbox to check your form responses.
 
 == Changelog ==
-
-1. Form picker added to select your forms from your Jotform account.
 
 == Upgrade notice ==
 
