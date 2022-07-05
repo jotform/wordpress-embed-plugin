@@ -1,13 +1,15 @@
 <?php
-/*
-    Plugin Name: JotForm Embed Forms
-    Plugin URI: http://www.jotform.com/labs/wordpress
-    Description:
-    Version: 1.2.3
-    Author: JotForm.com
-    Author URI: http://www.jotform.com
-    License: GNU General Public License v3
-*/
+/**
+ * Plugin Name:       Jotform Online Forms
+ * Description:       Securely embed online forms in your WordPress website.
+ * Requires at least: 3.3
+ * Requires PHP:      5.6
+ * Version:           1.2.5
+ * Author:            Jotform
+ * Author URI:        https://www.jotform.com
+ * License:           GNU General Public License v3
+ * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
+ */
 
 class JotFormWPEmbed {
 
