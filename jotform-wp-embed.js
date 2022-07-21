@@ -52,10 +52,9 @@
         },
         getInfo : function() {
             return {
-                longname : "JotForm Embed Forms",
-                author : 'JotForm.com',
+                longname : "Jotform Online Forms",
+                author : 'Jotform',
                 authorurl : 'https://www.jotform.com',
-                infourl : 'https://www.jotform.com/labs/',
                 version : "1.2.5"
             };
         }
