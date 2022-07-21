@@ -14,8 +14,8 @@
     tinymce.create('tinymce.plugins.JotFormWPEmbed', {
         init : function(ed, url) {
             ed.addButton('JotFormWPEmbed', {
-                title : 'JotForm',
-                image : url+'/images/jotform.png',
+                title : 'Jotform',
+                image : url+'/jotform.png',
                 onclick : function(event) {
                     function openWizard() {
                         window.jotformFormPicker.openWizard(function(data){
