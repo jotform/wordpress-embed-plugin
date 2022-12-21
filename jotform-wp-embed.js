@@ -33,16 +33,13 @@
                             }
                         });
                     }
-                    if(window.jotformFormPicker) {
-                        event.preventDefault();
+
+                    event.preventDefault();
+                    if (window.jotformFormPicker) {
                         openWizard();
-                    }
-                    else {
-                        jQuery.getScript("//js.jotform.com/JotFormFormPicker.js", function(data, textStatus, jqxhr) {
-                            event.preventDefault();
-                            window.jotformFormPicker = new JotFormFormPicker();
-                            openWizard();
-                        });
+                    } else if (JotFormFormPicker) {
+                        window.jotformFormPicker = new JotFormFormPicker();
+                        openWizard();
                     }
                 }
             });

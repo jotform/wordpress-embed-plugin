@@ -41,6 +41,7 @@ class JotFormWPEmbed {
     }
 
     public function registerFormPicker($buttons) {
+        wp_enqueue_script( 'jotform-wp-embed-fp-wrapper', plugins_url( 'jotform-wp-embed-fp-wrapper.js', __FILE__ ));
         array_push($buttons, "|", "JotFormWPEmbed");
         return $buttons;
     }
