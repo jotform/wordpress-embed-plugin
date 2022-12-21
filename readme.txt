@@ -1,4 +1,4 @@
-=== JotForm Online Forms - Drag & Drop Form Builder, Securely Embed Contact Forms ===
+=== Jotform Online Forms - Drag & Drop Form Builder, Securely Embed Contact Forms ===
 Contributors:       Jotform
 Donate link:        N/A
 Tags:               jotform, survey, order form, contact form, embed form
