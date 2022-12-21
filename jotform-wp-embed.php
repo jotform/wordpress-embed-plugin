@@ -4,7 +4,7 @@
  * Description:       Securely embed online forms in your WordPress website.
  * Requires at least: 3.3
  * Requires PHP:      5.6
- * Version:           1.2.5
+ * Version:           1.3.0
  * Author:            Jotform
  * Author URI:        https://www.jotform.com
  * License:           GNU General Public License v3
