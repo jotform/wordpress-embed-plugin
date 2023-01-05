@@ -11,8 +11,12 @@ function JotFormFormPicker () {
         $this = this;
         if(!window.wizardCallBackInit) {
             XD.receiveMessage(function(message){
-                if(!message.data.closeModal) callback(message.data);
-                $this.closeWizard();
+                const data = { message }; 
+                if(data.closeModal) {
+                    $this.closeWizard();
+                } else if(data.id && data.title) {
+                    callback(message.data);
+                }
             }, 'https://www.jotform.com');
             window.wizardCallBackInit = true;
         }
