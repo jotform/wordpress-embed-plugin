@@ -11,11 +11,12 @@ function JotFormFormPicker () {
         $this = this;
         if(!window.wizardCallBackInit) {
             XD.receiveMessage(function(message){
-                const data = { message }; 
+                const { data } = message;
                 if(data.closeModal) {
                     $this.closeWizard();
                 } else if(data.id && data.title) {
                     callback(message.data);
+                    $this.closeWizard();
                 }
             }, 'https://www.jotform.com');
             window.wizardCallBackInit = true;
