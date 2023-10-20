@@ -4,7 +4,7 @@ Donate link:        N/A
 Tags:               jotform, survey, order form, contact form, embed form
 Requires at least:  3.3
 Requires PHP:       5.6
-Tested up to:       6.0
+Tested up to:       6.3
 Stable tag:         1.3.1
 License:            GNU General Public License v3
 License URI:        http://www.gnu.org/licenses/gpl.html
