@@ -17,20 +17,7 @@ class JotFormWPEmbed {
         /* Hook action to init */
         add_action('init', array($this ,'addTinyMCEButton') );
 
-        /* Use shortcode api if available */
-        if($this->isLegacy()) {
-            add_filter('the_content', array($this, 'handleContentTags'));
-        } else {
-            add_shortcode('jotform', array($this, 'apiEmbedHandler'));
-        }
-    }
-
-    /*
-     * Checks if WP version is less than 2.5 (When shortcode Api was introduced)
-     * @return bool
-     */
-    public function isLegacy() {
-    	return get_bloginfo('version') < 2.5;
+        add_shortcode('jotform', array($this, 'apiEmbedHandler'));
     }
 
     public function addTinyMCEButton() {
@@ -52,25 +39,17 @@ class JotFormWPEmbed {
         return $plugin_array;
     }
 
-    public function handleContentTags($content) {
-        // this will also support the older version of plugin.
-        $pattern = '/\[jotform id=\"(?<formID>.*)\"( title=\"(?<formTitle>.*)?\")?\]/';
-        if (preg_match($pattern, $content)) {
-            $content = preg_replace_callback($pattern, "replaceTags", $content);
-        }
-        return $content;
-    }
-
     public function replaceTags($matches)
     {
-        return '<script type="text/javascript" src="//www.jotform.com/jsform/'.$matches["formID"].'?redirect=1"></script>';
+        $url = '//www.jotform.com/jsform/'.$matches["formID"].'?redirect=1';
+        return '<script type="text/javascript" src="'.esc_url($url).'"></script>';
     }
 
     /*
      * Reads form id returned from shortcode api and inserts form
      */
     public function apiEmbedHandler($args) {
-    	return isset($args['id'])
+    	return isset($args['id']) && ctype_digit($args['id'])
     		? $this->replaceTags(array('formID' => $args['id']))
     		: '';
     }
