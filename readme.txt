@@ -2,9 +2,9 @@
 Contributors:       Jotform
 Donate link:        N/A
 Tags:               jotform, survey, order form, contact form, embed form
-Requires at least:  3.3
-Requires PHP:       5.6
-Tested up to:       6.6
+Requires at least:  4.9
+Requires PHP:       7.2
+Tested up to:       6.7
 Stable tag:         1.3.2
 License:            GNU General Public License v3
 License URI:        http://www.gnu.org/licenses/gpl.html
@@ -17,11 +17,11 @@ This plugin lets you securely embed online forms in your WordPress website.
 
 **Secure, Easy-to-Use Online Form Builder for WordPress**
 
-Jotform is an easy-to-use Form Builder trusted by over 10+ million users. With Jotform’s drag-and-drop interface, you can create custom forms for your website or blog using advanced customization tools and CSS injection. Embed your secure online forms into Wordpress posts and pages at the click of a button, and set up inbox and email notifications to get notified and check your form responses on any device. And with the free Jotform Mobile Forms app, you can even receive instant push notifications for every submission.
+[Jotform](https://www.jotform.com) is an easy-to-use Form Builder trusted by over 25+ million users. With Jotform’s drag-and-drop interface, you can create custom forms for your website or blog using advanced customization tools and CSS injection. Embed your secure online forms into Wordpress posts and pages at the click of a button, and set up inbox and email notifications to get notified and check your form responses on any device. And with the free Jotform Mobile Forms app, you can even receive instant push notifications for every submission.
 
-With [10,000+ free form templates](https://www.jotform.com/form-templates/) to get you started, you can quickly create custom online contact forms, event registration forms, application forms, request forms, surveys, and more, and embed them in your website in just a few clicks. Jotform offers [300+ widgets](https://www.jotform.com/widgets/), including E-Signature, Appointment Slots, Take Photo, Terms & Conditions, and Image Slider, and [150+ integrations](https://www.jotform.com/integrations/) to sync form submissions and file uploads to platforms like Google Sheets, Google Calendar, Slack, Zoom, HubSpot, Salesforce, Airtable, Trello, Google Drive, Dropbox, and more — you can even build your own email list and create a customer database in Mailchimp!
+With [10,000+ free form templates](https://www.jotform.com/form-templates/) to get you started, you can quickly create custom online contact forms, event registration forms, application forms, request forms, surveys, and more, and embed them in your website in just a few clicks. Jotform offers [500+ widgets](https://www.jotform.com/widgets/), including Signature, Appointment Slots, Take Photo, Terms & Conditions, and Image Slider, and Jotform offers over [240 native integrations](https://www.jotform.com/integrations/) and, through connector tools like Google Sheets, Google Calendar, Slack, Zoom, HubSpot, Salesforce, Airtable, Dropbox connects with more than 3,000 apps in total. You can even build your own email list and create a customer database in Mailchimp!
 
-You can create a secure payment form to sell your products, collect donations, and set up recurring subscriptions via [30+ trusted payment gateway integrations](https://www.jotform.com/integrations/category/payment-processing), including Square, PayPal, Stripe, and Authorize.Net, with no additional transaction fees.
+You can create a secure payment form to sell your products, collect donations, and set up recurring subscriptions via [40+ trusted payment gateway integrations](https://www.jotform.com/integrations/category/payment-processing), including Square, PayPal, Stripe, and Authorize.Net, with no additional transaction fees.
 
 And if you’re concerned about data security, Jotform keeps your form data safe with advanced features like PCI compliance, [GDPR compliance](https://www.jotform.com/gdpr-compliance/), a 256-bit SSL connection, and optional [HIPAA compliance for healthcare professionals](https://www.jotform.com/hipaa/).
 
@@ -33,9 +33,9 @@ If you have any questions or concerns regarding your online forms or our Form Bu
 
 * **Customize for your brand:** Represent your business by adding your company branding, such as logos, fonts, and color palettes, to your forms.
 * **10,000+ free form templates:** Build custom [registration forms](https://www.jotform.com/form-templates/category/registration), [feedback forms](https://www.jotform.com/form-templates/category/feedback), [application forms](https://www.jotform.com/form-templates/category/application-form), [order forms](https://www.jotform.com/form-templates/category/order-form), [contact forms](https://www.jotform.com/form-templates/category/contact-form), [report forms](https://www.jotform.com/form-templates/category/report), [signup forms](https://www.jotform.com/form-templates/category/signup-form), [donation forms](https://www.jotform.com/form-templates/category/donation), [surveys](https://www.jotform.com/form-templates/category/survey), [services forms](https://www.jotform.com/form-templates/category/services), [resume (CV) job application forms](https://www.jotform.com/form-templates/cv-submission-form), [booking forms](https://www.jotform.com/form-templates/category/booking), [petition forms](https://www.jotform.com/form-templates/category/petition), [and more](https://www.jotform.com/form-templates/); plus, collect responses online.
-* **300+ widgets:** Choose from [hundreds of online form widgets](https://www.jotform.com/widgets/) to add powerful features like video players, social media icons, geolocation maps, and more to your forms.
+* **500+ widgets:** Choose from [hundreds of online form widgets](https://www.jotform.com/widgets/) to add powerful features like video players, social media icons, geolocation maps, and more to your forms.
 
-* **150+ integrations:** Connect with popular apps like [PayPal](https://www.jotform.com/paypal/), [Square](https://www.jotform.com/square/), [Google Calendar](https://www.jotform.com/integrations/google-calendar), [Google Sheets](https://www.jotform.com/integrations/google-sheets), [Zoom](https://www.jotform.com/integrations/zoom), [Airtable](https://www.jotform.com/integrations/airtable), [Slack](https://www.jotform.com/integrations/slack), [Zoho](https://www.jotform.com/integrations/zoho-crm), [Asana](https://www.jotform.com/integrations/asana), [Trello](https://www.jotform.com/integrations/trello), [Monday.com](https://www.jotform.com/integrations/monday-com) [and more](https://www.jotform.com/integrations/).
+* **240+ native integrations:** Connect with popular apps like [PayPal](https://www.jotform.com/paypal/), [Square](https://www.jotform.com/square/), [Google Calendar](https://www.jotform.com/integrations/google-calendar), [Google Sheets](https://www.jotform.com/integrations/google-sheets), [Zoom](https://www.jotform.com/integrations/zoom), [Airtable](https://www.jotform.com/integrations/airtable), [Slack](https://www.jotform.com/integrations/slack), [Zoho](https://www.jotform.com/integrations/zoho-crm), [Asana](https://www.jotform.com/integrations/asana), [Trello](https://www.jotform.com/integrations/trello), [Monday.com](https://www.jotform.com/integrations/monday-com) [and more](https://www.jotform.com/integrations/).
 * **Built-in collaboration tools:** Assign forms to teammates or share them with a link to collect and manage form submissions collaboratively.
 
 * **Social login:** Sign up or log in using your **Google** or **Facebook** account.
@@ -50,11 +50,11 @@ If you have any questions or concerns regarding your online forms or our Form Bu
 * **PCI certification:** Keep your customers’ cardholder data safe with Jotform’s PCI DSS Service Provider Level 1 compliance, the highest security attainment you can have as a business that collects online credit card payments.
 * **GDPR compliance:** Stay fully compliant with the European Union’s General Data Protection Regulation ([GDPR](https://www.jotform.com/gdpr-compliance/)) requirements. This regulation applies to any business that collects data in or from Europe.
 * **CCPA compliance:** Protect California residents by requiring businesses to handle their online and offline data in a responsible manner.
-* **HIPAA compliance:** Safely collect sensitive patient health information using Jotform’s HIPAA-compliant forms. A Business Associate Agreement (BAA) is available upon request.
+* **HIPAA compliance:** Safely collect sensitive patient health information using Jotform’s HIPAA-enabled forms. A Business Associate Agreement (BAA) is available upon request.
 
 View the full list of Jotform’s security features [here](https://www.jotform.com/security/).
 
-**Automate Your Workflow with 100+ Integrations**
+**Automate Your Workflow with 240+ Native Integrations**
 
 * **Popular apps:** [PayPal](https://www.jotform.com/paypal/), [Square](https://www.jotform.com/square/), [Google Calendar](https://www.jotform.com/integrations/google-calendar), [Google Sheets](https://www.jotform.com/integrations/google-sheets), [Zoom](https://www.jotform.com/integrations/zoom), [Airtable](https://www.jotform.com/integrations/airtable), [Slack](https://www.jotform.com/integrations/slack), [Zoho](https://www.jotform.com/integrations/zoho-crm), [Asana](https://www.jotform.com/integrations/asana), [Trello](https://www.jotform.com/integrations/trello), [and more](https://www.jotform.com/integrations/)
 * **CRM software:** [HubSpot](https://www.jotform.com/integrations/hubspot), [ActiveCampaign](https://www.jotform.com/integrations/activecampaign), [Salesforce](https://www.jotform.com/integrations/salesforce), [Keap (formerly InfusionSoft)](https://www.jotform.com/integrations/keap), [Pipedrive](https://www.jotform.com/integrations/pipedrive), [and more](https://www.jotform.com/integrations/category/crm)
@@ -73,7 +73,7 @@ View all of Jotform’s integrations [here](https://www.jotform.com/integrations
 * **Charge customers later:** Use Jotform’s payment authorization feature to collect payment information now and charge your customers later.
 * **E-check and ACH payments:** Process online check payments via [eCheck.Net](https://www.jotform.com/authorize-net/echeck/) or collect direct bank transfers via [Stripe ACH](https://www.jotform.com/stripe/ach/).
 * **Discounts and coupons:** Set up your payment form to accept coupons and discount codes provided by customers.
-* **30+ payment gateways:** [PayPal](https://www.jotform.com/integrations/paypal-business), [Square](https://www.jotform.com/integrations/square), [Stripe](https://www.jotform.com/integrations/stripe), [Authorize.Net](https://www.jotform.com/integrations/authorize-net), [BlueSnap](https://www.jotform.com/integrations/bluesnap), [and more](https://www.jotform.com/integrations/category/payment-processing)!
+* **40+ payment gateways:** [PayPal](https://www.jotform.com/integrations/paypal-business), [Square](https://www.jotform.com/integrations/square), [Stripe](https://www.jotform.com/integrations/stripe), [Authorize.Net](https://www.jotform.com/integrations/authorize-net), [BlueSnap](https://www.jotform.com/integrations/bluesnap), [and more](https://www.jotform.com/integrations/category/payment-processing)!
 
 View the full list of Jotform’s online payment features [here](https://www.jotform.com/online-payments/features/).
 
@@ -101,7 +101,7 @@ View the full list of Jotform’s online payment features [here](https://www.jot
 
 **Advanced Fields and Widgets**
 
-* **E-Signature:** Collect legally binding signatures through your online forms.
+* **Signature:** Collect electronic signatures through your online forms.
 * **Form Calculation:** Automatically perform calculations in your form.
 * **Terms & Conditions:** Let users read and accept terms and conditions.
 * **Take Photo:** Let users take photos directly on your form.
@@ -138,11 +138,11 @@ Not at all! Our easy-to-use Form Builder requires no coding — just drag and dr
 
 = Is Jotform free? =
 
-On our Starter plan, you’ll be able to access all Jotform features for free. However, if you’d like to create more forms, remove Jotform branding, and accept more monthly submissions, you’ll need to upgrade to a Bronze, Silver, or Gold plan. HIPAA compliance is only available to Silver and Gold users. For more information, please see our [pricing](https://www.jotform.com/pricing/).
+On our Starter plan, you’ll be able to access all Jotform features for free. However, if you’d like to create more forms, remove Jotform branding, and accept more monthly submissions, you’ll need to upgrade to a Bronze, Silver, or Gold plan. HIPAA compliance is only available to Gold users. For more information, please see our [pricing](https://www.jotform.com/pricing/).
 
 = What is Jotform? =
 
-[Jotform](https://www.jotform.com) is a free form builder. It is trusted by over 1 millions users. Two things make Jotform great: Easy to use form builder and large number of ready-to-use form templates. You can choose from over 2500 form templates and quickly create your forms.
+[Jotform](https://www.jotform.com) is a free form builder. It is trusted by over 25 million users. Two things make Jotform great: Easy to use form builder and large number of ready-to-use form templates. You can choose from over 10,000 form templates and quickly create your forms.
 
 = What kind of forms can I create with Jotform? =
 
@@ -150,7 +150,7 @@ You can create any form you need with Jotform — [order forms](https://www.jotf
 
 = Can I collect payments with Jotform? =
 
-Yes! Jotform makes it easy to sell products, collect donations, and set up recurring payments directly through your online forms with [30+ trusted payment processing integrations](https://www.jotform.com/integrations/category/payment-processing) — including [Square](https://www.jotform.com/square/), [PayPal](https://www.jotform.com/paypal/), [Stripe](https://www.jotform.com/stripe/), [Authorize.Net](https://www.jotform.com/authorize-net/), and more.
+Yes! Jotform makes it easy to sell products, collect donations, and set up recurring payments directly through your online forms with [40+ trusted payment processing integrations](https://www.jotform.com/integrations/category/payment-processing) — including [Square](https://www.jotform.com/square/), [PayPal](https://www.jotform.com/paypal/), [Stripe](https://www.jotform.com/stripe/), [Authorize.Net](https://www.jotform.com/authorize-net/), and more.
 
 = How secure is Jotform? =
 
