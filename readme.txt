@@ -2,8 +2,8 @@
 Contributors:       Jotform
 Donate link:        N/A
 Tags:               jotform, survey, order form, contact form, embed form
-Requires at least:  4.9
-Requires PHP:       7.2
+Requires at least:  5.3
+Requires PHP:       7.4
 Tested up to:       6.7
 Stable tag:         1.3.2
 License:            GNU General Public License v3
