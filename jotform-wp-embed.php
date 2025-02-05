@@ -4,7 +4,7 @@
  * Description:       Securely embed online forms in your WordPress website.
  * Requires at least: 5.3
  * Requires PHP:      7.4
- * Version:           1.3.4
+ * Version:           1.3.6
  * Author:            Jotform
  * Author URI:        https://www.jotform.com
  * License:           GNU General Public License v3
@@ -16,8 +16,48 @@ class JotFormWPEmbed {
     public function __construct() {
         /* Hook action to init */
         add_action('init', array($this ,'addTinyMCEButton') );
-
         add_shortcode('jotform', array($this, 'apiEmbedHandler'));
+
+        add_action('admin_notices', array($this, 'showNewPluginNotification'));
+        add_action('wp_ajax_jotform-ai-chatbot_dismiss_notice', array($this, 'dismissNewPluginNotification'));
+    }
+
+    public function showNewPluginNotification() {
+        if (!current_user_can('manage_options')) {
+            return;
+        }
+    
+        if (get_option('jotform-ai-chatbot_admin_notice_dismissed')) {
+            return;
+        }
+    
+        $plugin_slug = 'jotform-ai-chatbot';
+        $plugin_url = esc_url("plugin-install.php?tab=plugin-information&plugin=$plugin_slug&TB_iframe=true&width=600&height=550");
+    
+        ?>
+        <div class="notice notice-info is-dismissible" id="jotform-ai-chatbot-admin-notice">
+            <p>🚀 <strong>Meet Jotform AI Chatbot!</strong> Automate support, boost engagement & generate leads. No coding needed. <a href="<?php echo $plugin_url; ?>" class="thickbox">Try it now!</a> 🤖✨</p>    
+        </div>
+        <?php
+        
+        add_thickbox();
+
+        ?>
+        <script>
+        jQuery(document).on('click', '#jotform-ai-chatbot-admin-notice .notice-dismiss', function () {
+            jQuery.post(ajaxurl, {
+                action: 'jotform-ai-chatbot_dismiss_notice'
+            });
+        });
+        </script>
+        <?php
+
+        add_action('admin_footer', 'jotform-ai-chatbot_notice_script');
+    }
+
+    public function dismissNewPluginNotification() {
+        update_option('jotform-ai-chatbot_admin_notice_dismissed', true);
+        wp_die();
     }
 
     public function addTinyMCEButton() {
