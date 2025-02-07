@@ -5,7 +5,7 @@ Tags:               jotform, survey, order form, contact form, embed form
 Requires at least:  5.3
 Requires PHP:       7.4
 Tested up to:       6.7
-Stable tag:         1.3.6
+Stable tag:         1.3.7
 License:            GNU General Public License v3
 License URI:        http://www.gnu.org/licenses/gpl.html
 
@@ -181,6 +181,9 @@ If you have any additional questions or concerns regarding Jotform, please refer
 8. Use Jotform Inbox to check your form responses.
 
 == Changelog ==
+
+= 1.3.7 =
+* Fix: admin notification issue resolved
 
 = 1.3.6 =
 * readme.txt: version update
