@@ -1,5 +1,10 @@
 <?php
 
+// Exit if accessed directly
+if (!defined('ABSPATH')) {
+    exit(0);
+}
+
 if (!defined("WP_UNINSTALL_PLUGIN")) {
     exit(0);
 }

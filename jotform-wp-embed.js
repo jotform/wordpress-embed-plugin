@@ -1,5 +1,5 @@
 /**
- * Plugin Name:       Jotform Online Forms
+ * Plugin Name:       Jotform Online Forms - Drag & Drop Form Builder, Securely Embed Contact Forms
  * Description:       Securely embed online forms in your WordPress website.
  * Requires at least: 5.3
  * Requires PHP:      7.4

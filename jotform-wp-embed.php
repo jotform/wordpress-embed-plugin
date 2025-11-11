@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Jotform Online Forms
+ * Plugin Name:       Jotform Online Forms - Drag & Drop Form Builder, Securely Embed Contact Forms
  * Description:       Securely embed online forms in your WordPress website.
  * Requires at least: 5.3
  * Requires PHP:      7.4
@@ -10,6 +10,11 @@
  * License:           GNU General Public License v3
  * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
  */
+
+// Exit if accessed directly
+if (!defined('ABSPATH')) {
+    exit(0);
+}
 
 class JotFormWPEmbed {
 
@@ -32,11 +37,11 @@ class JotFormWPEmbed {
         }
     
         $plugin_slug = 'jotform-ai-chatbot';
-        $plugin_url = esc_url("plugin-install.php?tab=plugin-information&plugin=$plugin_slug&TB_iframe=true&width=600&height=550");
+        $plugin_url = "plugin-install.php?tab=plugin-information&plugin=$plugin_slug&TB_iframe=true&width=600&height=550";
     
         ?>
         <div class="notice notice-info is-dismissible" id="jotform-ai-chatbot-admin-notice">
-            <p>🚀 <strong>Meet Jotform AI Chatbot!</strong> Automate support, boost engagement & generate leads. No coding needed. <a href="<?php echo $plugin_url; ?>" class="thickbox">Try it now!</a> 🤖✨</p>    
+            <p>🚀 <strong>Meet Jotform AI Chatbot!</strong> Automate support, boost engagement & generate leads. No coding needed. <a href="<?php echo esc_url($plugin_url); ?>" class="thickbox">Try it now!</a> 🤖✨</p>    
         </div>
         <?php
         
@@ -66,7 +71,7 @@ class JotFormWPEmbed {
     }
 
     public function registerFormPicker($buttons) {
-        wp_enqueue_script( 'jotform-wp-embed-fp-wrapper', plugins_url( 'jotform-wp-embed-fp-wrapper.js', __FILE__ ));
+        wp_enqueue_script('jotform-wp-embed-fp-wrapper', plugins_url('jotform-wp-embed-fp-wrapper.js', __FILE__), [], null, true);
         array_push($buttons, "|", "JotFormWPEmbed");
         return $buttons;
     }
@@ -79,17 +84,29 @@ class JotFormWPEmbed {
 
     public function replaceTags($matches)
     {
-        $url = '//www.jotform.com/jsform/'.$matches["formID"].'?redirect=1';
-        return '<script type="text/javascript" src="'.esc_url($url).'"></script>';
+        $url = '//www.jotform.com/jsform/' . $matches['formID'] . '?redirect=1';
+        $handle = 'jotform-' . $matches['formID'];
+
+        wp_enqueue_script(
+            $handle,
+            esc_url($url),
+            [],
+            null,
+            true
+        );
+
+        return '<div class="jotform-embed" data-form-id="' . esc_attr($matches['formID']) . '"></div>';
     }
 
     /*
      * Reads form id returned from shortcode api and inserts form
      */
     public function apiEmbedHandler($args) {
-    	return isset($args['id']) && ctype_digit($args['id'])
-    		? $this->replaceTags(array('formID' => $args['id']))
-    		: '';
+    	if (isset($args['id']) && ctype_digit($args['id'])) {
+            return $this->replaceTags(array('formID' => $args['id']));
+        }
+
+        return '';
     }
 }
 
