@@ -4,7 +4,7 @@
  * Description:       Securely embed online forms in your WordPress website.
  * Requires at least: 5.3
  * Requires PHP:      7.4
- * Version:           1.3.7
+ * Version:           1.3.8
  * Author:            Jotform
  * Author URI:        https://www.jotform.com
  * License:           GNU General Public License v3
@@ -71,7 +71,7 @@ class JotFormWPEmbed {
     }
 
     public function registerFormPicker($buttons) {
-        wp_enqueue_script('jotform-wp-embed-fp-wrapper', plugins_url('jotform-wp-embed-fp-wrapper.js', __FILE__), [], null, true);
+        wp_enqueue_script('jotform-wp-embed-fp-wrapper', plugins_url('jotform-wp-embed-fp-wrapper.js', __FILE__), [], "1.3.8", true);
         array_push($buttons, "|", "JotFormWPEmbed");
         return $buttons;
     }
@@ -84,29 +84,18 @@ class JotFormWPEmbed {
 
     public function replaceTags($matches)
     {
-        $url = '//www.jotform.com/jsform/' . $matches['formID'] . '?redirect=1';
-        $handle = 'jotform-' . $matches['formID'];
-
-        wp_enqueue_script(
-            $handle,
-            esc_url($url),
-            [],
-            null,
-            true
-        );
-
-        return '<div class="jotform-embed" data-form-id="' . esc_attr($matches['formID']) . '"></div>';
+        $url = '//www.jotform.com/jsform/'.$matches["formID"].'?redirect=1';
+        // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+        return '<script type="text/javascript" src="'.esc_url($url).'"></script>';
     }
 
     /*
      * Reads form id returned from shortcode api and inserts form
      */
     public function apiEmbedHandler($args) {
-    	if (isset($args['id']) && ctype_digit($args['id'])) {
-            return $this->replaceTags(array('formID' => $args['id']));
-        }
-
-        return '';
+    	return isset($args['id']) && ctype_digit($args['id'])
+    		? $this->replaceTags(array('formID' => $args['id']))
+    		: '';
     }
 }
 
