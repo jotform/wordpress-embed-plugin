@@ -85,7 +85,7 @@ class JotFormWPEmbed {
     public function replaceTags($matches)
     {
         $url = '//www.jotform.com/jsform/'.$matches["formID"].'?redirect=1';
-        // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+        // phpcs:ignore WordPress.WP.EnqueuedResources.NonEnqueuedScript
         return '<script type="text/javascript" src="'.esc_url($url).'"></script>';
     }
 
