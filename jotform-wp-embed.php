@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name:       Jotform Online Forms - Drag & Drop Form Builder, Securely Embed Contact Forms
- * Description:       Securely embed online forms in your WordPress website.
+ * Plugin Name:       Online Forms — Customizable Payment, Contact, Quiz, Survey Form Builder - Jotform
+ * Description:       Create and embed secure online forms in WordPress using Jotform’s drag-and-drop builder, with PCI and HIPAA compliance and full data-security support.
  * Requires at least: 5.3
  * Requires PHP:      7.4
- * Version:           1.3.8
+ * Version:           1.3.9
  * Author:            Jotform
  * Author URI:        https://www.jotform.com
  * License:           GNU General Public License v3
@@ -71,7 +71,7 @@ class JotFormWPEmbed {
     }
 
     public function registerFormPicker($buttons) {
-        wp_enqueue_script('jotform-wp-embed-fp-wrapper', plugins_url('jotform-wp-embed-fp-wrapper.js', __FILE__), [], "1.3.8", true);
+        wp_enqueue_script('jotform-wp-embed-fp-wrapper', plugins_url('jotform-wp-embed-fp-wrapper.js', __FILE__), [], "1.3.9", true);
         array_push($buttons, "|", "JotFormWPEmbed");
         return $buttons;
     }
