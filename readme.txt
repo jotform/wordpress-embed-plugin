@@ -3,8 +3,8 @@ Contributors:       Jotform
 Tags:               forms, online contact form, custom form, wordpress form plugin, form builder 
 Requires at least:  5.3
 Requires PHP:       7.4
-Tested up to:       6.8
-Stable tag:         1.3.9
+Tested up to:       7.1
+Stable tag:         1.4.0
 License:            GNU General Public License v3
 License URI:        http://www.gnu.org/licenses/gpl.html
 
@@ -15,7 +15,7 @@ Jotform Online Embed Forms is the easiest way to create and embed professional, 
 
 🟠 Jotform’s powerful drag-and-drop form builder lets you collect data, accept payments, and automate workflows in minutes. Whether you need contact forms, surveys, event registrations, or application forms, you can design and publish them instantly.
 
-🌍 With over 35 million users worldwide, Jotform is the most trusted online form solution for WordPress.
+🌍 With over 40 million users worldwide, Jotform is the most trusted online form solution for WordPress.
 
 = 💬 What does the Jotform Online Form plugin do? =
 
@@ -159,6 +159,9 @@ If you have any additional questions or concerns regarding Jotform, please refer
 8. Use Jotform Inbox to check your form responses.
 
 == Changelog ==
+
+= 1.4.0 =
+* Update: Tested up to WordPress 7.1 and readme.txt file updated
 
 = 1.3.9 =
 * Update: plugin name and readme content updated

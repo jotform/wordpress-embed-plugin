@@ -3,7 +3,7 @@
  * Description:       Create and embed secure online forms in WordPress using Jotform’s drag-and-drop builder, with PCI and HIPAA compliance and full data-security support.
  * Requires at least: 5.3
  * Requires PHP:      7.4
- * Version:           1.3.9
+ * Version:           1.4.0
  * Author:            Jotform
  * Author URI:        https://www.jotform.com
  * License:           GNU General Public License v3
@@ -52,7 +52,7 @@
                 longname : "Jotform Online Forms",
                 author : 'Jotform',
                 authorurl : 'https://www.jotform.com',
-                version : "1.3.9"
+                version : "1.4.0"
             };
         }
     });
